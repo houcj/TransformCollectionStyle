@@ -15,6 +15,8 @@
 		480221311DAE2A030087BA0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4802212F1DAE2A030087BA0F /* LaunchScreen.storyboard */; };
 		4802213C1DAE2A030087BA0F /* TransformCollectionStyleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4802213B1DAE2A030087BA0F /* TransformCollectionStyleTests.m */; };
 		480221471DAE2A030087BA0F /* TransformCollectionStyleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 480221461DAE2A030087BA0F /* TransformCollectionStyleUITests.m */; };
+		489DCF551DAF2B5600448895 /* Style_One_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 489DCF541DAF2B5600448895 /* Style_One_CollectionViewCell.m */; };
+		489DCF581DAF2FBC00448895 /* Style_Two_CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 489DCF571DAF2FBC00448895 /* Style_Two_CollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		480221421DAE2A030087BA0F /* TransformCollectionStyleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransformCollectionStyleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		480221461DAE2A030087BA0F /* TransformCollectionStyleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformCollectionStyleUITests.m; sourceTree = "<group>"; };
 		480221481DAE2A030087BA0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		489DCF531DAF2B5600448895 /* Style_One_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Style_One_CollectionViewCell.h; sourceTree = "<group>"; };
+		489DCF541DAF2B5600448895 /* Style_One_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Style_One_CollectionViewCell.m; sourceTree = "<group>"; };
+		489DCF561DAF2FBC00448895 /* Style_Two_CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Style_Two_CollectionViewCell.h; sourceTree = "<group>"; };
+		489DCF571DAF2FBC00448895 /* Style_Two_CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Style_Two_CollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				480221251DAE2A030087BA0F /* AppDelegate.m */,
 				480221271DAE2A030087BA0F /* ViewController.h */,
 				480221281DAE2A030087BA0F /* ViewController.m */,
+				489DCF531DAF2B5600448895 /* Style_One_CollectionViewCell.h */,
+				489DCF541DAF2B5600448895 /* Style_One_CollectionViewCell.m */,
+				489DCF561DAF2FBC00448895 /* Style_Two_CollectionViewCell.h */,
+				489DCF571DAF2FBC00448895 /* Style_Two_CollectionViewCell.m */,
 				4802212A1DAE2A030087BA0F /* Main.storyboard */,
 				4802212D1DAE2A030087BA0F /* Assets.xcassets */,
 				4802212F1DAE2A030087BA0F /* LaunchScreen.storyboard */,
@@ -277,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				480221291DAE2A030087BA0F /* ViewController.m in Sources */,
+				489DCF581DAF2FBC00448895 /* Style_Two_CollectionViewCell.m in Sources */,
 				480221261DAE2A030087BA0F /* AppDelegate.m in Sources */,
+				489DCF551DAF2B5600448895 /* Style_One_CollectionViewCell.m in Sources */,
 				480221231DAE2A030087BA0F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +528,7 @@
 				4802214D1DAE2A030087BA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4802214E1DAE2A030087BA0F /* Build configuration list for PBXNativeTarget "TransformCollectionStyleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				480221501DAE2A030087BA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		480221511DAE2A030087BA0F /* Build configuration list for PBXNativeTarget "TransformCollectionStyleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				480221531DAE2A030087BA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
